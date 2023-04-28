@@ -86,7 +86,7 @@ else if(temp<=28)
    delay(2000);
    lcd.clear();
 }
-else if(temp>=30)
+else if(temp>28)
 {
    analogWrite(fan, 255);
    lcd.print("Fan Speed: 100% ");
